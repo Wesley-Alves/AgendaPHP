@@ -36,7 +36,7 @@ $(document).ready(function() {
             url: $(form).attr("action"),
             data: $(form).serialize(),
             success: function(data) {
-				$(".modal").modal("hide");
+		$(".modal").modal("hide");
                 if ($(form).attr("id") == "form_adicionar") {
                     $(data).appendTo("table").find("td").wrapInner("<div style='display: none;' />").parent().find("td > div").slideDown(350, function() {
                         $(this).replaceWith($(this).contents());
