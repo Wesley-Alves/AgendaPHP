@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    padding-bottom: 50px;
+    min-height: 100%;
+}
+
+.navbar {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a {
+    color: #ffffff;
+}
+
+.navbar img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+footer {
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.contatos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#adicionar {
+    margin-bottom: 10px;
+}
+
+.acoes img {
+    width: 26px;
+    height: 26px;
+}
+
+.acoes a:hover {
+    text-decoration: none;
+}
+
+thead th {
+    border-bottom-width: 1px!important;
+    color: #ffffff;
+}
+
+input[type="submit"] {
+    display: none;
+}
